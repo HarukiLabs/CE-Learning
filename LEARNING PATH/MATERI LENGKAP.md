@@ -1,7 +1,7 @@
 
 # ROADMAP STUDI + RENCANA JURNAL SINTA 5 (2 BULAN)
 
-Dokumen ini merangkum subset realistis dari roadmap Computer Science pada PDF sumber (:contentReference[oaicite:0]{index=0}) beserta rencana eksekusi dua bulan untuk menghasilkan satu artikel ilmiah SINTA 5 berbasis analisis kuantitatif.
+Dokumen ini merangkum subset realistis dari roadmap Computer Science beserta rencana eksekusi dua bulan untuk menghasilkan satu artikel ilmiah SINTA 5 berbasis analisis kuantitatif.
 
 ---
 
