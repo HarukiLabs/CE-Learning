@@ -98,3 +98,24 @@
 
 # Struktur Folder
 
+```
+.
+├── README.md
+├── assets/
+│   ├── 01-banner.png
+│   └── 02-logo.png
+├── week-01/
+│   ├── notes.md
+│   └── code/
+├── week-02/
+│   ├── notes.md
+│   └── code/
+├── week-03/
+│   ├── notes.md
+│   └── code/
+└── week-04/
+    ├── notes.md
+    └── code/
+```
+
+
