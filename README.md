@@ -104,7 +104,6 @@
 
 ```
 .
-.
 ├── README.md
 ├── assets/
 │   └── celeb-learning-waguri.png
