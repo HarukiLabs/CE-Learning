@@ -1,4 +1,7 @@
 # Computer Science Roadmap Tracker
+<p align="center">
+  <img src="assets/celearning-waguri.png" width="100%">
+</p>
 
 Repo ini untuk mencatat progres belajar Computer Science berbasis roadmap dari [roadmap.sh/computer-science](https://roadmap.sh/computer-science) dan menyimpan catatan/kode terkait.
 
