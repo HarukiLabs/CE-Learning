@@ -102,23 +102,21 @@
 
 # Struktur Folder
 
-```
 .
 ├── README.md
 ├── assets/
-│   ├── 01-banner.png
-│   └── 02-logo.png
-├── week-01/
-│   ├── notes.md
-│   └── code/
-├── week-02/
-│   ├── notes.md
-│   └── code/
-├── week-03/
-│   ├── notes.md
-│   └── code/
-└── week-04/
-    ├── notes.md
+│   └── celeb-learning-waguri.png
+└── LEARNING PATH/
+    ├── WEEK 1 LEARNING/
+    │   └── NOTES.md
+    ├── WEEK 2 LEARNING/
+    │   └── NOTES.md
+    ├── WEEK 3 LEARNING/
+    │   └── NOTES.md
+    ├── WEEK 4 LEARNING/
+    │   └── NOTES.md
+    └── INFORMATION.md
+
     └── code/
 ```
 
