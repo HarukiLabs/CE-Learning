@@ -3,7 +3,11 @@
   <img src="assets/celearning-waguri.png" width="100%">
 </p>
 
+## 1. Referensi Utama
 
+- Roadmap: https://roadmap.sh/computer-science
+
+---
 # Minggu 1 — C++ dan Fondasi Sistem
 
 ## 1. Pick a Language
