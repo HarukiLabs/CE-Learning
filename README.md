@@ -102,6 +102,8 @@
 
 # Struktur Folder
 
+```
+.
 .
 ├── README.md
 ├── assets/
@@ -117,7 +119,7 @@
     │   └── NOTES.md
     └── INFORMATION.md
 
-    └── code/
 ```
+
 
 
