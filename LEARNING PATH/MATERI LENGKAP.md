@@ -1,137 +1,295 @@
-
-# ROADMAP STUDI + RENCANA JURNAL SINTA 5 (2 BULAN)
-
-Dokumen ini merangkum subset realistis dari roadmap Computer Science beserta rencana eksekusi dua bulan untuk menghasilkan satu artikel ilmiah SINTA 5 berbasis analisis kuantitatif.
-
----
-
-# 1. TUJUAN
-
-1. Mengambil bagian-bagian inti dari roadmap Computer Science yang relevan untuk pembuatan jurnal.
-2. Menghasilkan satu artikel ilmiah SINTA 5 dalam waktu 2 bulan dengan lingkup yang realistis.
-3. Menghindari beban roadmap yang terlalu besar untuk durasi singkat.
+# COMPUTER SCIENCE ROADMAP — MATERI LENGKAP (BERDASARKAN PDF)
+Sumber: Roadmap Computer Science (:contentReference[oaicite:0]{index=0})  
+Dokumen ini hanya menyajikan ulang seluruh materi yang tertulis pada roadmap tanpa pemangkasan.
 
 ---
 
-# 2. SUBSET ROADMAP YANG DIPAKAI UNTUK JURNAL
+# 1. PICK A LANGUAGE
+- Python  
+- Go  
+- C#  
+- Rust  
+- C++  
+- C  
+- Java  
 
-Diambil dari PDF roadmap Computer Science dan difokuskan pada materi yang dapat langsung dipakai untuk penelitian analitis.
+---
 
-## 2.1 Data Structures (Prioritas Tinggi)
+# 2. DATA STRUCTURES
+## Struktur Dasar
 - Array  
 - Linked List  
 - Stack  
 - Queue  
 - Hash Table  
 
-## 2.2 Algorithms (Prioritas Tinggi)
-- Searching  
-  - Binary Search  
-  - Linear Search  
-- Sorting  
-  - Quick Sort  
-  - Merge Sort  
-  - Insertion Sort  
-- Big-O, Big-Theta, Big-Omega  
+## Tree
+- Binary Tree  
+- Binary Search Tree  
+- Full Binary Tree  
+- Complete Binary Tree  
+- Balanced Tree  
+- Unbalanced Tree  
 
-## 2.3 Database (Prioritas Tinggi)
+## Graph
+- Directed Graph  
+- Undirected Graph  
+- Spanning Tree  
+- Representation  
+  - Adjacency Matrix  
+  - Adjacency List  
+
+## Heap
+
+---
+
+# 3. ASYMPTOTIC NOTATION
+- Big O  
+- Big-Theta  
+- Big Omega  
+
+### Common Runtimes
+- Constant  
+- Logarithmic  
+- Linear  
+- Polynomial  
+- Exponential  
+- Factorial  
+
+---
+
+# 4. COMMON ALGORITHMS
+## Recursion
+- Recursion  
+- Tail Recursion  
+- Non-Tail Recursion  
+
+## Caches
+- LRU Cache  
+- MFU Cache  
+- LFU Cache  
+
+## Searching
+- Binary Search  
+- Linear Search  
+
+## Sorting
+- Bubble Sort  
+- Selection Sort  
+- Insertion Sort  
+- Heap Sort  
+- Quick Sort  
+- Merge Sort  
+
+## Tree Traversal
+- Pre-Order Traversal  
+- In-Order Traversal  
+- Post-Order Traversal  
+- Breadth First Search  
+- Depth First Search  
+
+## Graph Algorithms
+- Breadth First Search  
+- Depth First Search  
+- Bellman-Ford Algorithm  
+- Dijkstra's Algorithm  
+- A* Algorithm  
+
+## Backtracking
+- Finding Hamiltonian Paths  
+- Solving N Queen Problem  
+- Maze Solving Problem  
+- The Knight's Tour Problem  
+
+## Greedy Algorithms
+- Dijkstra's Algorithm  
+- Huffman Coding  
+- Kruskal's Algorithm  
+- Ford-Fulkerson Algorithm  
+- Prim's Algorithm  
+- Rabin-Karp Algorithm  
+
+## String Search & Manipulations
+- Search Pattern in Text  
+- Suffix Arrays  
+- Brute Force Search  
+- Knuth-Morris Pratt (KMP)  
+- Boyer-Moore  
+- Rabin-Karp  
+- Substring Search  
+
+---
+
+# 5. ENDIANNESS & FLOATING POINT
+## Endianess
+- Big Endian  
+- Little Endian  
+
+## Floating Point  
+(Materi umum floating point representation)
+
+---
+
+# 6. STRING, ENCODING, UML
+## Unicode & Character Encodings
+- Unicode  
+- ASCII  
+- Character Encodings  
+
+## UML Diagrams
+- Class Diagrams  
+- Usecase Diagrams  
+- Activity Diagrams  
+- Statemachine Diagrams  
+- Sequence Diagrams  
+
+---
+
+# 7. DESIGN PATTERNS
+- GoF Design Patterns  
+- Architectural Patterns  
+- Dependency Injection  
+- Null Object Pattern  
+- Type Object Pattern  
+
+---
+
+# 8. BASIC MATH SKILLS
+- Probability  
+- Combinatorics  
+
+---
+
+# 9. COMPLEXITY CLASSES
+- P  
+- NP  
+- Co-NP  
+- NP Hard  
+- NP Complete  
+- P = NP  
+- Travelling Salesman Problem  
+- Knapsack Problem  
+- Longest Path Problem  
+
+---
+
+# 10. TRIES
+- Tries (prefix trees)
+
+---
+
+# 11. BALANCED SEARCH TREES
+- AVL Trees  
+- Red/Black Trees  
+- 2–3 Search Trees  
+- 2–3–4 Trees  
+- K-ary / M-ary Trees  
+- B-Tree  
+
+---
+
+# 12. SYSTEM DESIGN
+## Scaling
+- Horizontal Scaling  
+- Vertical Scaling  
+
+## Infrastruktur
+- Load Balancing  
+- Clustering  
+- Caching  
+- CDN  
+- Proxy  
+
+## Konsep Fundamental
+- CAP Theorem  
+- Queues  
+
+## Architectural Styles
+- REST  
+- GraphQL  
+- gRPC  
+
+## Cloud Design Patterns
+- Long Polling  
+- Short Polling  
+- Web Sockets  
+- Server-Sent Events (SSE)  
+
+---
+
+# 13. DATABASES
 - SQL vs NoSQL  
-- Indexing  
-- Normalization vs Denormalization  
-- Query Cost Analysis  
+- Normalization / Denormalization  
+- Entity-Relationship Model  
+- DDL  
+- DML  
+- DQL  
+- DCL  
 
-## 2.4 Networking (Prioritas Tinggi)
+## Database Concepts
+- Locking  
+- ACID Model  
+- BASE  
+- CAP Theorem  
+- PACELC  
+
+## Database Components
+- Indexes  
+- Views  
+- Transactions  
+- Stored Procedures  
+
+## Distributed Database Concepts
+- Database Federation  
+- Replication  
+- Sharding  
+
+---
+
+# 14. NETWORKING
+- OSI Model  
+- TCP/IP Model  
 - DNS  
 - HTTP  
 - TLS & HTTPS  
-- Sockets (konsep)  
+- Sockets  
 
-## 2.5 Security (Prioritas Tinggi)
+---
+
+# 15. SECURITY
+- Public Key Cryptography  
 - Hashing / Encryption / Encoding  
-- Hashing Algorithms (misal SHA256)  
-- OWASP Top 10 (high-level)  
-
-## 2.6 System Design (Subset Ringan)
-- Caching  
-- Load Balancing (konsep dasar)  
-- CAP Theorem (overview)  
-- CDN (konsep)  
+- Hashing Algorithms  
+- OWASP Top 10  
 
 ---
 
-# 3. SUBSET ROADMAP YANG TIDAK DIAMBIL (TERLALU BERAT UNTUK 2 BULAN)
-
-- Greedy Algorithms lengkap (Kruskal, Prim, Ford-Fulkerson mendalam)
-- Advanced string algorithms (KMP, Boyer-Moore, Rabin-Karp mendalam)
-- Balanced Trees full set (AVL, Red-Black, B-Tree implementasi manual)
-- Complexity Classes (NP-hard, NP-complete level teori mendalam)
-- System Design full architecture
-- Concurrency advanced (mutex, semaphore, scheduling)
-- How CPU Works full chapter
-
-Alasan: durasi dua bulan tidak kompatibel dengan volume topik ini.
+# 16. HOW COMPUTERS WORK
+- How CPU Executes Programs  
+- How Computers Calculate  
+- Registers and RAM  
+- Instructions and Programs  
+- CPU Cache  
 
 ---
 
-# 4. REKOMENDASI TEMA JURNAL (KOMPATIBEL 2 BULAN)
-
-1. **Analisis Perbandingan Efisiensi Algoritma Sorting (Quick vs Merge) pada Dataset Berbeda**  
-2. **Analisis Waktu Akses Hash Table vs Array pada Skala Data Bertingkat**  
-3. **Evaluasi Pengaruh Indexing terhadap Kinerja Query SQL**  
-4. **Analisis Keamanan Web Berdasarkan Implementasi OWASP Top 10 Level Dasar**  
-5. **Benchmark Performa Database SQL vs NoSQL untuk Operasi Read/Write Sederhana**
-
-Seluruh tema dapat diselesaikan dalam dua bulan tanpa sistem kompleks.
-
----
-
-# 5. RENCANA KERJA 2 BULAN
-
-## Minggu 1–2 (Fondasi + Eksperimen Dasar)
-- Data Structures: Array, Linked List, Stack, Queue, Hash Table  
-- Sorting & Searching: Quick Sort, Merge Sort, Binary Search  
-- Big-O dan runtime estimation  
-- Penentuan tema jurnal  
-- Pembuatan skrip eksperimen sederhana  
-**Output:** catatan literatur, skrip uji awal
-
-## Minggu 3–4 (Database, Networking, Security)
-- SQL vs NoSQL  
-- Indexing  
-- DNS, HTTP, TLS  
-- Hashing & OWASP  
-- Desain eksperimen final  
-**Output:** rencana metode penelitian + dataset siap pakai
-
-## Minggu 5–6 (Eksperimen / Pengumpulan Data)
-- Eksekusi benchmark (algoritma atau database)  
-- Rekap data kuantitatif (tabel + grafik)  
-- Analisis awal  
-**Output:** tabel hasil + grafik + draft analisis
-
-## Minggu 7 (Penulisan)
-- Pendahuluan  
-- Studi Pustaka  
-- Metodologi  
-**Output:** 70% naskah jurnal
-
-## Minggu 8 (Analisis + Finalisasi)
-- Analisis hasil  
-- Kesimpulan  
-- Revisi bahasa  
-- Format OJS  
-**Output:** naskah siap submit
+# 17. PROCESSES AND THREADS
+- Processes and Threads  
+- Process Forking  
+- Memory Management  
+- Lock / Mutex / Semaphore  
+- Concurrency in Multiple Cores  
+- Scheduling Algorithms  
+- CPU Interrupts  
 
 ---
 
-# 6. SYARAT KEBERHASILAN
-- Fokus pada analisis, bukan pembangunan sistem besar.  
-- Eksperimen kecil namun terukur.  
-- Hanya mengambil materi roadmap yang langsung digunakan untuk penelitian.  
-- Menghindari topik berat yang tidak bisa diselesaikan dalam durasi pendek.
+# 18. K-D TREES & SKIP LISTS
+- K-D Trees  
+- Skip Lists  
 
 ---
 
-# 7. KESIMPULAN
-Durasi dua bulan cukup jika lingkup roadmap dipersempit menjadi bagian inti yang relevan untuk penelitian. Seluruh materi di atas merupakan jalur optimal untuk menghasilkan satu jurnal SINTA 5 berbasis analisis kuantitatif tanpa overload materi.
+# 19. PENUTUP
+Ini adalah rangkuman lengkap seluruh elemen roadmap Computer Science dari PDF tanpa ada pengurangan materi.
 
